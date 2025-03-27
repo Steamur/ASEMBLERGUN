@@ -1,0 +1,80 @@
+/* Основные стили для сайта "Антураж" */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #808080;
+    color: #ffcc00;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+nav {
+    background: rgba(51, 51, 51, 0.8);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffcc00;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.image-container img {
+    width: 300px;
+    height: auto;
+    border: 2px solid #ffcc00;
+    border-radius: 10px;
+}
+
+footer {
+    background: rgba(34, 34, 34, 0.8);
+    color: #ffcc00;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+h2 {
+    text-shadow: 2px 2px 4px black;
+    color: #ffcc00;
+}
+
+button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #e6b800;
+}
